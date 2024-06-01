@@ -19,7 +19,7 @@ document.addEventListener('DOMContentLoaded', () => {
 "tres cartas en orden ascendente cuya suma sea un múltiplo de 5",
 "tres cartas en orden descendente cuya suma sea un múltiplo de 3",
 "cuatro cartas consecutivas que sumen un múltiplo de 6",
-"cuatro cartas consecutivas que sumen un múltiplo de 8",
+"cuatro cartas consecutivas que sumen un múltiplo de 8" /*,
         "todas las cartas son pares",
         "todas las cartas son impares",
         "todas las cartas verdes son mayores que las azules"
@@ -52,7 +52,7 @@ document.addEventListener('DOMContentLoaded', () => {
         "las cartas azules suman el doble que las rojas",
         "hay dos cartas azules no adyacentes",
         "hay escalera de 4 cartas en cualquier orden. Ejm 2354",
-        "hay escalera de 3 cartas seguida. Ejm 345"
+        "hay escalera de 3 cartas seguida. Ejm 345"*/
     ];
 
     const cardContainer = document.getElementById('card-container');

@@ -22,7 +22,7 @@ document.addEventListener('DOMContentLoaded', () => {
 "cuatro cartas consecutivas que sumen un múltiplo de 8" ,
         "todas las cartas son pares",
         "todas las cartas son impares",
-        "todas las cartas verdes son mayores que las azules"
+        "todas las cartas verdes son mayores que las azules",
         "todas las cartas naranja son mayores que las rojas",
         "las cartas verdes son menores que las de otro color",
         "las cartas rojas son mayores que las de otro color",

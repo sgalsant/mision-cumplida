@@ -60,6 +60,8 @@ document.addEventListener('DOMContentLoaded', () => {
     const cardCounter = document.getElementById('card-counter');
     const undoButton = document.getElementById('undo-button');
 
+    const cardTotal = descriptions.length;
+    
     let cardCount = 0;
     let historyStack = [];
 
@@ -69,7 +71,7 @@ document.addEventListener('DOMContentLoaded', () => {
     }
 
     function updateCardCounter() {
-        cardCounter.innerText = `Misiones cumplidas: ${cardCount} / ${descriptions.length + cardCount}`;
+        cardCounter.innerText = `Misiones cumplidas: ${cardCount} / ${cardTotal}`;
   /*      if (descriptions.length == 0) {
             alert ("enhorabuena has completado " + cardCount + " misiones" );
         }

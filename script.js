@@ -123,9 +123,11 @@ document.addEventListener('DOMContentLoaded', () => {
     function undoLastChange() {
         if (historyStack.length > 0) {
             const lastChange = historyStack.pop();
+                        
             lastChange.card.dataset.accomplished = false;
             lastChange.card.querySelector('p').innerText = lastChange.oldDescription;
-            descriptions.push(lastChange.newDescription);
+            if (lastChange.newDescription != "misión cumplida") 
+                descriptions.push(lastChange.newDescription);
 
             historyList.removeChild(historyList.firstChild);
 

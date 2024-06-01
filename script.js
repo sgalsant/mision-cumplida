@@ -69,7 +69,7 @@ document.addEventListener('DOMContentLoaded', () => {
     }
 
     function updateCardCounter() {
-        cardCounter.innerText = `Misiones cumplidas: ${cardCount} - ${descriptions.length}`;
+        cardCounter.innerText = `Misiones cumplidas: ${cardCount} - santiago`;
   /*      if (descriptions.length == 0) {
             alert ("enhorabuena has completado " + cardCount + " misiones" );
         }

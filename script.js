@@ -54,7 +54,7 @@ document.addEventListener('DOMContentLoaded', () => {
         "hay escalera de 4 cartas en cualquier orden. Ejm 2354",
         "hay escalera de 3 cartas seguida. Ejm 345"
         
-        // fin oficiales
+      
         
         
          

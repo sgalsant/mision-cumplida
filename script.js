@@ -53,32 +53,6 @@ document.addEventListener('DOMContentLoaded', () => {
         "hay dos cartas azules no adyacentes",
         "hay escalera de 4 cartas en cualquier orden. Ejm 2354",
         "hay escalera de 3 cartas seguida. Ejm 345"
-        
-      
-        
-        
-         
-        
-        /*"Juega tres cartas consecutivas que sumen un número par.",
-    "Juega tres cartas consecutivas que sumen un número impar.",
-    "Juega dos cartas con el mismo número y dos cartas con el mismo color.",
-    "Juega dos cartas cuyo producto sea 6",
-    "Juega tres cartas del mismo número y de distinto color.",
-    "Juega dos cartas del mismo color seguidas de dos cartas de diferente color.",
-    "Juega tres cartas consecutivas del mismo color.",
-    "Juega tres cartas consecutivas del mismo número.",
-    "Juega tres cartas consecutivas del mismo color en orden ascendente.",
-    "Juega tres cartas consecutivas del mismo color en orden descendente.",
-    "Juega dos cartas que sumen 6 y dos cartas que sumen 7.",
-    "Juega dos cartas que sumen 5 y dos cartas que sumen 7.",
-    "Juega tres cartas consecutivas que sumen un número primo.",
-    "Juega tres cartas consecutivas que sumen un cuadrado perfecto.",
-    "Juega tres cartas consecutivas que sumen un cubo perfecto.",
-    "Juega dos cartas del mismo número seguidas de dos cartas del mismo color diferentes.",
-    "Juega tres cartas del mismo número seguidas de una carta del mismo color.",
-    "Juega dos cartas del mismo número seguidas de una carta del mismo color seguidas de una carta de diferente color.",
-    "Juega tres cartas cuyo valor sea mayor al doble del valor de la carta anterior.",
-    "Juega tres cartas cuyo valor sea menor a la mitad del valor de la carta anterior."*/
     ];
 
     const cardContainer = document.getElementById('card-container');

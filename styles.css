@@ -86,3 +86,17 @@ button {
 button:hover {
     background-color: #0056b3;
 }
+
+      table {
+            width: 50%;
+            border-collapse: collapse;
+            margin: 20px auto;
+        }
+        th, td {
+            border: 1px solid black;
+            padding: 8px;
+            text-align: center;
+        }
+        th {
+            background-color: #f2f2f2;
+        }
